@@ -1,0 +1,37 @@
+h1 {
+    color : DarkSlateGray;
+    text-align: center;
+  }
+  .intro {
+    color: GoldenRod;
+    text-align: center;
+   font-family: "Courier New";
+    
+    
+  }
+  #ChristmasImg{
+    float : right;
+     border: solid;
+    border-width: 20px;
+    border-color: LightSlateGrey;
+    ;
+  }
+  .List {
+    color : IndianRed;
+  }
+  #GITHUB{
+    text-align:center;
+  }
+  #Img {
+    padding-right = 10px;
+  }
+  .Intro{
+      background-color: LightYellow;
+    border: solid;
+    border-width: 1px;
+    border-color: CornflowerBlue;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
