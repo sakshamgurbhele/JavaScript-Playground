@@ -14,21 +14,47 @@
   outline: none;
 }
 
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
+}
+
+.box{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 1.6rem;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     background: url("./images/pattern-background-desktop.svg") no-repeat
-    var(--paleBlue);
+        var(--paleBlue);
+        flex-direction: column;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    min-height: 100vh;
+    /* color:  var(--darkBlue); */
+}
+/* a {
+    text-decoration: none;
+    color: var(--darkBlue);
+  } */
+.inner-box h2{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.inner-box p{
+    padding: 1rem ;
+    font-size: 1.1rem;
+    color: var(--desaturatedBlue);
+    line-height: 1.6;
 }
