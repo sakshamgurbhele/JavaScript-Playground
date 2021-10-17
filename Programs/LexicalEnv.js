@@ -1,13 +1,14 @@
+var a =09;
 
-//Whenever a execution is created a Lexical environment is also created
+function hello1() {
 
-var a = 10;
-
-function hello1(){
-
-        
-        function sbc (){
-        console.log(a);
+    var a = 100;
+    console.log(a);
+    a = 1;
+    console.log(a);
     
+    function hello1(){ 
+        console.log(a);
     }
 }
+fun2();
