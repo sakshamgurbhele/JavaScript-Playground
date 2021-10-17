@@ -6,6 +6,18 @@
     --darkBlue: #1f2f56;
   }
 
+  /* DARKMODE-TOGGLE */
+.dark-toggle{
+    margin-right: 55rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+      
+  }
+input:checked + label{
+    
+}
+  
+
 * {
   margin: 0;
   padding: 0;
