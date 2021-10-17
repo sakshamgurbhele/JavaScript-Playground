@@ -9,15 +9,6 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
-
 ### Primary
 
 - Pale blue: hsl(225, 100%, 94%)
@@ -30,5 +21,16 @@ The designs were created to the following widths:
 - Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+
+
 
 
