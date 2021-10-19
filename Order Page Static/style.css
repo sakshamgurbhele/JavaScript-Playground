@@ -6,6 +6,31 @@
     --darkBlue: #1f2f56;
   }
 
+  /* DARKMODE-TOGGLE */
+.toggle{
+    margin-right: 55rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+      
+  }
+input:checked + label{
+    
+}
+
+label {
+    display: flex;
+    width: 75px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    background:hsl(224, 23%, 55%);
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+
 * {
   margin: 0;
   padding: 0;
