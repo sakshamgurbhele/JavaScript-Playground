@@ -26,13 +26,19 @@ body {
     text-shadow: 0 0 .5rem gold;
     width: 10rem;
     text-align: center; 
-    transition: all .08s ease;
+    transition: all .5s ease;
     cursor: pointer;
 }
+
 .key:hover{
     transform: scale(1.1);
     border-color: hsl(14, 59%, 69%);
     box-shadow: 0 0 1rem hsl(14, 59%, 69%);
+}
+.special-keys{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 kbd {
@@ -44,9 +50,9 @@ kbd {
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
   }
-.sound {
+/* .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
-  }
+  } */ 
