@@ -26,7 +26,13 @@ body {
     text-shadow: 0 0 .5rem gold;
     width: 10rem;
     text-align: center; 
-    transition: all .07s ease;
+    transition: all .08s ease;
+    cursor: pointer;
+}
+.key:hover{
+    transform: scale(1.1);
+    border-color: hsl(14, 59%, 69%);
+    box-shadow: 0 0 1rem hsl(14, 59%, 69%);
 }
 
 kbd {
@@ -34,7 +40,7 @@ kbd {
     font-size: 4rem;
 }
 .playing {
-    transform: scale(1.1);
+    transform: scale(1.2);
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
   }
