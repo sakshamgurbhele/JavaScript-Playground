@@ -40,8 +40,17 @@
             </div>
             <div data-key="76" class="key">
                 <kbd>L</kbd>
-                <span class="sound">tom</span>
+                <span class="sound">Tom</span>
             </div>
+        </div>
+        <!-- fun zone -->
+        <div data-key="32" class="special-keys">
+
+                <p>You found an easter egg 🥚, TAA-DAA ✨🍿</p>
+            
+            <!-- <div data-key="80" class="easter">
+                <h2>😂</h2>
+            </div> -->
         </div>
 
         <!-- sound -->
@@ -54,6 +63,8 @@
         <audio data-key="74" src="./Sounds/snare.wav"></audio>
         <audio data-key="75" src="./Sounds/tink.wav"></audio>
         <audio data-key="76" src="./Sounds/tom.wav"></audio>
+        <audio data-key="32" src="./Sounds/Netflix-intro.mp3"></audio>
+        <!-- <audio data-key="80" src="./Sounds/PH Intro.mp3"></audio> -->
 
 
         <script>
@@ -75,6 +86,10 @@
             const keys = Array.from(document.querySelectorAll('.key'));
             keys.forEach(key => key.addEventListener('transitionend', removeTransition));
             window.addEventListener('keydown', playSound);
+
+            //for mouse clicks
+            
+
         </script>
     </body>
 </html>
