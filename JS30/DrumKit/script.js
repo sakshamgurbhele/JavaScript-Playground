@@ -17,10 +17,13 @@ function removeTransition(e) {
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));
     window.addEventListener('keydown', playSound);
 
-    //for mouse clicks
-    // const special = document.querySelector('.easter');
-    // document.getElementsByClassName("special-keys").clickEventListener("click", function() {
-    // special.classList.add('playing');
-    // audio.currentTime = 0;
-    // audio.play();
-    // });
+// document.addEventListener("keydown", (event) => {
+     
+//     var key = document.getElementById("32");
+//     //for mouse clicks
+//     if(key == 32){
+//         var audio = new Audio("boom.wav");
+//         audio.currentTime = 0;
+//         audio.play();
+//     }
+// });
